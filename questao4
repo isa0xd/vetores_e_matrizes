@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro valor
+
+		inteiro lista[10]
+
+		para(inteiro i=0; i < 10; i++){
+			escreva("Informe um valor: ")
+			leia(valor)
+			
+			lista[i] = valor
+		}
+		para(inteiro j=0; j < 10; j++){
+			se(lista[j] % 2 == 0){
+				escreva("O número ", lista[j], " na posição ", j, " é par.\n")
+			}
+		}
+	}
+}
