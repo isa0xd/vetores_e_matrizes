@@ -1,0 +1,19 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro nota, media = 0
+
+		inteiro lista[4]
+
+		para(inteiro i=0; i < 4; i++){
+			escreva("Informe um valor para nota: ")
+			leia(nota)
+
+			lista[i] = nota
+		}
+	media = (lista[0] + lista[1] + lista[2] + lista[3]) / 4
+	escreva(media)
+	}
+}
